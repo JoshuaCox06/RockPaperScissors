@@ -3,7 +3,7 @@
 #include <time.h>
 using namespace std;
 
-main(){
+int main(){
   int playerChoice, computerChoice;
 
   srand(time(NULL));
