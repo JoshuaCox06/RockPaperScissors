@@ -1,10 +1,13 @@
 #include <iostream>
 #include <stdlib.h>
+#include <time.h>
 using namespace std;
 
 main(){
   int playerChoice, computerChoice;
 
+  srand(time(NULL));
+  
   //Player Chooses Option  
   do {
     cout<< "Choose one of the following choices: 1-Rock   2-Paper   3-Scissors"<<println;
